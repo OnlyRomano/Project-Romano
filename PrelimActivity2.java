@@ -1,12 +1,12 @@
 public class PrelimActivity2 {
     public static void main(String[] args) {
-        Person p = new Person("Jhun Mark M. Romano", 20, 2023, 2002);
+        Person Romano = new Person("Jhun Mark M. Romano", 20, 2023, 2002);
 
-        p.Age();
+        Romano.Age();
 
-        System.out.println("Name: " + p.getName());
-        System.out.println("Birth Year: " + p.getBirthyear());
-        System.out.println("Year Today: " + p.getYeartoday());
-        System.out.println("Age: " + p.getage());
+        System.out.println("Name: " + Romano.getName());
+        System.out.println("Birth Year: " + Romano.getBirthyear());
+        System.out.println("Year Today: " + Romano.getYeartoday());
+        System.out.println("Age: " + Romano.getage());
     }
 }
