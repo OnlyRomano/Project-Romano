@@ -9,7 +9,7 @@ public class Person {
         this.name = name;
     }
 
-    public void Age() {
+    public void SetAge() {
         age = YT - BY;
     }
 
