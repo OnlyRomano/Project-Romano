@@ -1,5 +1,5 @@
 public class Person {
-    private String name = "";
+    private String name;
     private int age, YT, BY;
 
     public Person(String name, int age, int YT, int BY) {
