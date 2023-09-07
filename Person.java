@@ -1,16 +1,16 @@
 public class Person {
     private String name;
-    private int age, YT, BY;
+    private int age, Yeartoday, Birhtyear;
 
-    public Person(String name, int age, int YT, int BY) {
+    public Person(String name, int age, int Yeartoday, int Birhtyear) {
         this.age = age;
-        this.BY = BY;
-        this.YT = YT;
+        this.Birhtyear = Birhtyear;
+        this.Yeartoday = Yeartoday;
         this.name = name;
     }
 
     public void Age() {
-        age = YT - BY;
+        age = Yeartoday - Birhtyear;
     }
 
     public String getName() {
@@ -22,10 +22,10 @@ public class Person {
     }
 
     public int getYeartoday() {
-        return YT;
+        return Yeartoday;
     }
 
     public int getBirthyear() {
-        return BY;
+        return Birhtyear;
     }
 }
