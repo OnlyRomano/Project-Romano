@@ -7,10 +7,10 @@ public class Program5 {
         Mdas m = new Mdas();
 
         try {
-            System.out.println("Input a Number: ");
+            System.out.print("Input a Number: ");
             m.setdata1(sc.nextInt());
 
-            System.out.println("Input a Number: ");
+            System.out.print("Input a Number: ");
             m.setdata2(sc.nextInt());
 
             m.Add();
